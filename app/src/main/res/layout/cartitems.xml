@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/AddtoCartpopular"
+                android:layout_width="28dp"
+                android:layout_height="27dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/white"
+                android:backgroundTint="@color/darkgreen"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.15"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/cartImage"
+                android:layout_width="96dp"
+                android:layout_height="81dp"
+                android:layout_marginStart="16dp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/banner1" />
+
+            <TextView
+                android:id="@+id/cartfoodname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="FoodName"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/pricePopular"
+                app:layout_constraintStart_toEndOf="@+id/cartImage"
+                app:layout_constraintTop_toTopOf="@+id/cartImage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/pricePopular"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="16dp"
+                android:text="$5"
+                android:textColor="@color/darkgreen"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cartImage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/AddtoCartpopular"
+                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintStart_toEndOf="@+id/AddtoCartpopular2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.15"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/AddtoCartpopular2"
+                android:layout_width="28dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="280dp"
+                android:background="@drawable/white"
+                android:backgroundTint="@color/darkgreen"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.15"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:layout_width="31dp"
+                android:id="@+id/deleteButton"
+                android:layout_height="28dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:src="@drawable/delete"
+                app:layout_constraintEnd_toEndOf="@+id/AddtoCartpopular"
+                app:layout_constraintHorizontal_bias="0.549"
+                app:layout_constraintStart_toStartOf="@+id/AddtoCartpopular2"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

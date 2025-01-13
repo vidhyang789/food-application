@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "253691876639",
+    "firebase_url": "https://world-of-food-b105f-default-rtdb.firebaseio.com",
+    "project_id": "world-of-food-b105f",
+    "storage_bucket": "world-of-food-b105f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253691876639:android:9886462fe2f6d5b8970c2a",
+        "android_client_info": {
+          "package_name": "com.example.adminviewoffood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253691876639-jj46nth83s3u75q84i66boq7ogj6mqvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminviewoffood",
+            "certificate_hash": "f1902582ad5e45e587152b1eb38cb603be90b1d6"
+          }
+        },
+        {
+          "client_id": "253691876639-qac74ouasbcactki2gj5vn93fahnuu4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK0AQjnTXERuenS1I01yrXeow5ZBgPhFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253691876639-qac74ouasbcactki2gj5vn93fahnuu4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253691876639:android:7956598bcb4b80fb970c2a",
+        "android_client_info": {
+          "package_name": "com.examples.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253691876639-qac74ouasbcactki2gj5vn93fahnuu4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK0AQjnTXERuenS1I01yrXeow5ZBgPhFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253691876639-qac74ouasbcactki2gj5vn93fahnuu4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

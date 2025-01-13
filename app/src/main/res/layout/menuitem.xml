@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/menuimage"
+                android:layout_width="110dp"
+                android:layout_height="74dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.461"
+                app:srcCompat="@drawable/banner1" />
+
+            <TextView
+                android:id="@+id/menufoodname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="FoodName"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/menuimage"
+                app:layout_constraintStart_toEndOf="@+id/menuimage"
+                app:layout_constraintTop_toTopOf="@+id/menuimage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/menuprice"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:text="$5"
+                android:textColor="@color/darkgreen"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/menuaddtocart"
+                android:layout_width="92dp"
+                android:layout_height="27dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/white"
+                android:backgroundTint="@color/darkgreen"
+                android:gravity="center"
+                android:text="Add To Cart"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/menuprice"
+                app:layout_constraintHorizontal_bias="0.463"
+                app:layout_constraintStart_toStartOf="@+id/menuprice"
+                app:layout_constraintTop_toBottomOf="@+id/menuprice"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="HardcodedText" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

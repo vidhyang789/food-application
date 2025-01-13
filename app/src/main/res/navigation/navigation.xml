@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/cartfragment"
+        android:name="com.examples.foodapp.fragment.Cartfragment"
+        android:label="fragment_cartfragment"
+        tools:layout="@layout/fragment_cartfragment" />
+    <fragment
+        android:id="@+id/searchfragment"
+        android:name="com.examples.foodapp.fragment.Searchfragment"
+        android:label="fragment_searchfragment"
+        tools:layout="@layout/fragment_searchfragment" />
+    <fragment
+        android:id="@+id/historyfragment"
+        android:name="com.examples.foodapp.fragment.Historyfragment"
+        android:label="fragment_historyfragment"
+        tools:layout="@layout/fragment_historyfragment" />
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.examples.foodapp.fragment.Homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/profilefragment"
+        android:name="com.examples.foodapp.fragment.Profilefragment"
+        android:label="fragment_profilefragment"
+        tools:layout="@layout/fragment_profilefragment" />
+</navigation>
